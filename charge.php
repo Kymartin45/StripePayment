@@ -1,5 +1,7 @@
 <?php
     require_once('vendor/autoload.php');
+    require_once('config/db.php');
+    require_once('lib/pd_db.php');
 
     \Stripe\Stripe::setApiKey('sk_test_51Hpq4CIkuecL7QkUnVXbFdWYIskjwYpA8248lJ0sffdPBqslK7uzOScCG6RCXNhW3ZkziF7CJYEx65dVzAO9TZgf001jfrLSwH');
 
