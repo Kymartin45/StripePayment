@@ -9,7 +9,7 @@
 
         public function addCustomer($data) {
             // Prepare query to add customer data to db
-            $this->db->query('INSERT INTO customers (id, first_name, last_name, email) VALUES():id, :first_name, :last_name, :email)');
+            $this->db->query('INSERT INTO customers (id, first_name, last_name, email) VALUES(:id, :first_name, :last_name, :email)');
 
             //Bind values from pdo_db.php  
             $this->db->bind(':id', $data['id']);
