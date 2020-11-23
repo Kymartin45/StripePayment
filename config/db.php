@@ -2,5 +2,5 @@
     //DB parameters
     define("DB_HOST", "localhost");
     define("DB_USER", "root");
-    define("DB_PASS", "your_password");
+    define("DB_PASS", "root");
     define("DB_NAME", "paypage");
